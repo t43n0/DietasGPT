@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMensaje"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Mensaje del usuario -->
+    <TextView
+        android:id="@+id/textoMensajeUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_mensaje_usuario"
+        android:padding="8dp"
+        android:text="Mensaje del usuario"
+        android:textColor="#FFFFFF"
+        android:visibility="gone" />
+
+    <!-- Mensaje del chatbot -->
+    <TextView
+        android:id="@+id/textoMensajeChatbot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_mensaje_chatbot"
+        android:padding="8dp"
+        android:text="Mensaje del chatbot"
+        android:textColor="#000000"
+        android:visibility="gone" />
+</LinearLayout>

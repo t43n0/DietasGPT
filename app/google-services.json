@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1099463894226",
+    "project_id": "dietasgpt",
+    "storage_bucket": "dietasgpt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099463894226:android:9c9ffb82e7836634ceb90b",
+        "android_client_info": {
+          "package_name": "com.dam.dietasgpt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUjoI814gY9x313Nl82Z2LBC4-TBm19e4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
